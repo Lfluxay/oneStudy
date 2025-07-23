@@ -1,0 +1,10 @@
+def func(n):
+    for i in range(n):
+        for j in range(i + 1):
+            print("* ", end='')
+        print()
+
+# 只有直接此文件运行的时候才成立
+
+if __name__ == "__main__":
+    func(5)
