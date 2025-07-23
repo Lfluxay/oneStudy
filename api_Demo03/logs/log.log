@@ -1,0 +1,1746 @@
+2021-10-23 23:22:54,895--test_add.py-83---INFO:用例------【新增项目成功】------执行成功
+2021-10-23 23:22:55,037--test_add.py-83---INFO:用例------【用户ID为空-失败】------执行成功
+2021-10-23 23:22:55,203--test_add.py-83---INFO:用例------【用户ID错误-失败】------执行成功
+2021-10-23 23:22:55,309--test_add.py-83---INFO:用例------【标题为空-失败】------执行成功
+2021-10-23 23:22:55,447--test_add.py-83---INFO:用例------【借款金额为空-失败】------执行成功
+2021-10-23 23:22:55,593--test_add.py-83---INFO:用例------【借款金额为1-失败】------执行成功
+2021-10-23 23:22:55,762--test_add.py-83---INFO:用例------【借款金额为50W-成功】------执行成功
+2021-10-23 23:22:55,964--test_add.py-83---INFO:用例------【借款金额为51W-失败】------执行成功
+2021-10-23 23:22:56,137--test_add.py-83---INFO:用例------【借款利率为空-失败】------执行成功
+2021-10-23 23:22:56,264--test_add.py-78---ERROR:用例------【借款利率为超过小数点后两位-失败】------执行失败
+2021-10-23 23:22:56,265--test_add.py-79---ERROR:{'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 136852, 'member_id': 1236985587, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-23 23:22:56.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_add.py", line 73, in test_add
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 136852, 'member_id': 1236985587, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-23 23:22:56.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-23 23:22:56,484--test_add.py-83---INFO:用例------【借款期限为空-失败】------执行成功
+2021-10-23 23:22:56,655--test_add.py-83---INFO:用例------【借款借款类型为空-失败】------执行成功
+2021-10-23 23:22:56,854--test_add.py-83---INFO:用例------【竞标天数为空-失败】------执行成功
+2021-10-23 23:22:56,982--test_add.py-83---INFO:用例------【借款期限超过36个月-失败】------执行成功
+2021-10-24 22:32:13,014--test_add.py-103---INFO:用例------【新增项目成功】------执行成功
+2021-10-24 22:32:13,234--test_add.py-103---INFO:用例------【借款金额为50W-成功】------执行成功
+2021-10-24 22:33:23,873--test_add.py-104---INFO:用例------【新增项目成功】------执行成功
+2021-10-24 22:33:24,414--test_add.py-104---INFO:用例------【借款金额为50W-成功】------执行成功
+2021-10-24 22:34:33,144--test_add.py-104---INFO:用例------【新增项目成功】------执行成功
+2021-10-24 22:34:33,834--test_add.py-104---INFO:用例------【借款金额为50W-成功】------执行成功
+2021-10-24 22:42:50,765--test_add.py-113---INFO:用例------【新增项目成功】------执行成功
+2021-10-24 22:42:51,381--test_add.py-113---INFO:用例------【借款金额为50W-成功】------执行成功
+2021-10-24 22:44:46,056--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-10-24 22:44:46,551--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-10-24 22:44:46,731--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-10-24 22:44:46,897--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-10-24 22:44:47,055--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-10-24 22:44:47,220--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-10-24 22:44:47,541--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-10-24 22:44:47,714--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-10-24 22:44:47,858--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-10-24 22:44:47,998--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-10-24 22:44:48,122--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-10-24 22:44:48,244--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-10-24 22:44:48,718--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-10-24 22:52:58,221--test_add.py-100---ERROR:用例------【借款利率为超过小数点后两位-失败】------执行失败
+2021-10-24 22:52:58,222--test_add.py-102---ERROR:{'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 137295, 'member_id': 1237000819, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-24 22:52:58.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_add.py", line 86, in test_add
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 137295, 'member_id': 1237000819, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-24 22:52:58.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 22:54:53,420--test_add.py-107---INFO:用例------【新增项目成功】------执行成功
+2021-10-24 22:54:53,818--test_add.py-107---INFO:用例------【用户ID为空-失败】------执行成功
+2021-10-24 22:54:54,216--test_add.py-107---INFO:用例------【用户ID错误-失败】------执行成功
+2021-10-24 22:54:54,557--test_add.py-107---INFO:用例------【标题为空-失败】------执行成功
+2021-10-24 22:54:54,946--test_add.py-107---INFO:用例------【借款金额为空-失败】------执行成功
+2021-10-24 22:54:55,310--test_add.py-107---INFO:用例------【借款金额为1-失败】------执行成功
+2021-10-24 22:54:55,653--test_add.py-107---INFO:用例------【借款金额为50W-成功】------执行成功
+2021-10-24 22:54:56,036--test_add.py-107---INFO:用例------【借款金额为51W-失败】------执行成功
+2021-10-24 22:54:56,369--test_add.py-107---INFO:用例------【借款利率为空-失败】------执行成功
+2021-10-24 22:54:56,714--test_add.py-100---ERROR:用例------【借款利率为超过小数点后两位-失败】------执行失败
+2021-10-24 22:54:56,714--test_add.py-102---ERROR:{'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 137301, 'member_id': 1237000819, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-24 22:54:56.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_add.py", line 86, in test_add
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 137301, 'member_id': 1237000819, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-24 22:54:56.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 22:54:57,071--test_add.py-107---INFO:用例------【借款期限为空-失败】------执行成功
+2021-10-24 22:54:57,426--test_add.py-107---INFO:用例------【借款借款类型为空-失败】------执行成功
+2021-10-24 22:54:57,785--test_add.py-107---INFO:用例------【竞标天数为空-失败】------执行成功
+2021-10-24 22:54:58,223--test_add.py-107---INFO:用例------【借款期限超过36个月-失败】------执行成功
+2021-10-24 23:04:49,602--test_add.py-105---INFO:用例------【新增项目成功】------执行成功
+2021-10-24 23:04:49,925--test_add.py-105---INFO:用例------【用户ID为空-失败】------执行成功
+2021-10-24 23:04:50,255--test_add.py-105---INFO:用例------【用户ID错误-失败】------执行成功
+2021-10-24 23:04:50,620--test_add.py-105---INFO:用例------【标题为空-失败】------执行成功
+2021-10-24 23:04:51,056--test_add.py-105---INFO:用例------【借款金额为空-失败】------执行成功
+2021-10-24 23:04:51,398--test_add.py-105---INFO:用例------【借款金额为1-失败】------执行成功
+2021-10-24 23:04:51,744--test_add.py-105---INFO:用例------【借款金额为50W-成功】------执行成功
+2021-10-24 23:04:52,122--test_add.py-105---INFO:用例------【借款金额为51W-失败】------执行成功
+2021-10-24 23:04:52,554--test_add.py-105---INFO:用例------【借款利率为空-失败】------执行成功
+2021-10-24 23:04:52,889--test_add.py-98---ERROR:用例------【借款利率为超过小数点后两位-失败】------执行失败
+2021-10-24 23:04:52,890--test_add.py-100---ERROR:{'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 137317, 'member_id': 1237000819, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-24 23:04:52.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_add.py", line 86, in test_add
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 137317, 'member_id': 1237000819, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-24 23:04:52.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 23:04:53,285--test_add.py-105---INFO:用例------【借款期限为空-失败】------执行成功
+2021-10-24 23:04:53,642--test_add.py-105---INFO:用例------【借款借款类型为空-失败】------执行成功
+2021-10-24 23:04:53,964--test_add.py-105---INFO:用例------【竞标天数为空-失败】------执行成功
+2021-10-24 23:04:54,348--test_add.py-105---INFO:用例------【借款期限超过36个月-失败】------执行成功
+2021-10-24 23:04:54,549--test_info.py-84---INFO:用例------【查询成功】------执行成功
+2021-10-24 23:04:54,693--test_info.py-79---ERROR:用例------【查询id为为空】------执行失败
+2021-10-24 23:04:54,693--test_info.py-80---ERROR:{'code': 1004, 'msg': 'No handler found for GET /futureloan//member//info'} not in {'code': 1004, 'msg': 'No handler found for GET /futureloan/member//info', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_info.py", line 74, in test_info
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1004, 'msg': 'No handler found for GET /futureloan//member//info'} not in {'code': 1004, 'msg': 'No handler found for GET /futureloan/member//info', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 23:04:54,866--test_info.py-84---INFO:用例------【查询错误id】------执行成功
+2021-10-24 23:04:55,135--test_login.py-59---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-10-24 23:04:55,135--test_login.py-60---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 54, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 23:04:55,428--test_login.py-59---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-10-24 23:04:55,428--test_login.py-60---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 54, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 23:04:55,541--test_login.py-67---ERROR:用例----[不输入手机号]----执行成功
+2021-10-24 23:04:55,714--test_login.py-67---ERROR:用例----[手机号长度10位]----执行成功
+2021-10-24 23:04:55,873--test_login.py-67---ERROR:用例----[手机号长度12位]----执行成功
+2021-10-24 23:04:56,041--test_login.py-67---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-10-24 23:04:56,348--test_login.py-67---ERROR:用例----[已注册过的手机号]----执行成功
+2021-10-24 23:04:56,592--test_login.py-67---ERROR:用例----[密码7位]----执行成功
+2021-10-24 23:04:56,856--test_login.py-67---ERROR:用例----[密码17位]----执行成功
+2021-10-24 23:04:56,974--test_login.py-67---ERROR:用例----[不输入密码]----执行成功
+2021-10-24 23:04:57,238--test_login.py-67---ERROR:用例----[账号未注册]----执行成功
+2021-10-24 23:04:57,389--test_login.py-67---ERROR:用例----[不输入账号，密码]----执行成功
+2021-10-24 23:04:57,977--test_recharge.py-118---INFO:用例------【充值成功】------执行成功
+2021-10-24 23:04:58,430--test_recharge.py-118---INFO:用例------【id错误】------执行成功
+2021-10-24 23:04:58,915--test_recharge.py-118---INFO:用例------【不输入id】------执行成功
+2021-10-24 23:04:59,396--test_recharge.py-113---ERROR:用例------【不输入金额】------执行失败
+2021-10-24 23:04:59,396--test_recharge.py-114---ERROR:{'code': 1, 'msg': '充值金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '充值金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 23:04:59,875--test_recharge.py-113---ERROR:用例------【充值金额为负数】------执行失败
+2021-10-24 23:04:59,875--test_recharge.py-114---ERROR:{'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 23:05:00,281--test_recharge.py-113---ERROR:用例------【充值金额为500001】------执行失败
+2021-10-24 23:05:00,281--test_recharge.py-114---ERROR:{'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 23:05:00,742--test_recharge.py-113---ERROR:用例------【充值金额非数字】------执行失败
+2021-10-24 23:05:00,742--test_recharge.py-114---ERROR:{'code': 2, 'msg': '充值金额必须为数值型'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须为数值型'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 23:05:01,146--test_recharge.py-113---ERROR:用例------【充值金额小数点三位】------执行失败
+2021-10-24 23:05:01,146--test_recharge.py-114---ERROR:{'code': 2, 'msg': '充值金额小数超过两位'} not in {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额小数超过两位'} not in {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 23:05:01,567--test_recharge.py-118---INFO:用例------【充值成功50w】------执行成功
+2021-10-24 23:05:02,120--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-10-24 23:05:02,675--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-10-24 23:05:02,828--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-10-24 23:05:02,966--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-10-24 23:05:03,134--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-10-24 23:05:03,324--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-10-24 23:05:03,612--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-10-24 23:05:03,795--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-10-24 23:05:03,909--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-10-24 23:05:04,043--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-10-24 23:05:04,201--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-10-24 23:05:04,364--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-10-24 23:05:04,829--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-10-24 23:05:05,200--test_update.py-83---INFO:用例------【更新昵称-成功-中文】------执行成功
+2021-10-24 23:05:05,326--test_update.py-83---INFO:用例------【更新昵称-成功-英文】------执行成功
+2021-10-24 23:05:05,470--test_update.py-83---INFO:用例------【更新昵称-成功-字符】------执行成功
+2021-10-24 23:05:05,651--test_update.py-83---INFO:用例------【更新昵称-成功-数字】------执行成功
+2021-10-24 23:05:05,778--test_update.py-83---INFO:用例------【更新昵称-成功-英文数字混合】------执行成功
+2021-10-24 23:05:05,918--test_update.py-83---INFO:用例------【更新昵称-成功-英文中文混合】------执行成功
+2021-10-24 23:05:06,068--test_update.py-83---INFO:用例------【更新昵称-成功-中文数字混合】------执行成功
+2021-10-24 23:05:06,236--test_update.py-83---INFO:用例------【更新昵称-成功-英文数字中文混合】------执行成功
+2021-10-24 23:05:06,419--test_update.py-83---INFO:用例------【更新昵称-成功-英文数字中文字符混合】------执行成功
+2021-10-24 23:05:06,563--test_update.py-83---INFO:用例------【更新昵称-成功-中文字符混合】------执行成功
+2021-10-24 23:05:06,677--test_update.py-78---ERROR:用例------【更新昵称-长度等于10位】------执行失败
+2021-10-24 23:05:06,677--test_update.py-79---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_update.py", line 73, in test_update
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 23:05:06,847--test_update.py-83---INFO:用例------【更新昵称-长度大于10位】------执行成功
+2021-10-24 23:05:06,977--test_update.py-83---INFO:用例------【更新昵称-不输入修改昵称】------执行成功
+2021-10-24 23:05:07,096--test_update.py-83---INFO:用例------【更新昵称-长度为1位】------执行成功
+2021-10-24 23:05:07,242--test_update.py-83---INFO:用例------【更新昵称-不传入会员ID】------执行成功
+2021-10-24 23:05:07,383--test_update.py-83---INFO:用例------【更新昵称-传入错误会员ID】------执行成功
+2021-10-24 23:05:07,539--test_update.py-83---INFO:用例------【更新昵称-无会员id参数】------执行成功
+2021-10-24 23:05:07,679--test_update.py-83---INFO:用例------【更新昵称-无昵称参数】------执行成功
+2021-10-24 23:05:08,340--test_withdraw.py-97---INFO:用例------【提现成功-整数】------执行成功
+2021-10-24 23:05:08,827--test_withdraw.py-97---INFO:用例------【提现成功-小数】------执行成功
+2021-10-24 23:05:09,246--test_withdraw.py-97---INFO:用例------【提现成功-两位小数】------执行成功
+2021-10-24 23:05:09,626--test_withdraw.py-97---INFO:用例------【提现成功-50w】------执行成功
+2021-10-24 23:05:10,128--test_withdraw.py-97---INFO:用例------【提现ID为空】------执行成功
+2021-10-24 23:05:10,535--test_withdraw.py-97---INFO:用例------【会员ID为小数】------执行成功
+2021-10-24 23:05:11,011--test_withdraw.py-92---ERROR:用例------【提现金额为0】------执行失败
+2021-10-24 23:05:11,011--test_withdraw.py-93---ERROR:{'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 1237000819, 'leave_amount': 1999399.58, 'mobile_phone': '13200009001', 'reg_name': 'a', 'reg_time': '2021-10-23 13:49:15.0', 'type': 0}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_withdraw.py", line 84, in test_withdraw
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 1237000819, 'leave_amount': 1999399.58, 'mobile_phone': '13200009001', 'reg_name': 'a', 'reg_time': '2021-10-23 13:49:15.0', 'type': 0}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 23:05:11,501--test_withdraw.py-97---INFO:用例------【提现金额为负数】------执行成功
+2021-10-24 23:05:11,908--test_withdraw.py-92---ERROR:用例------【提现金额为空】------执行失败
+2021-10-24 23:05:11,908--test_withdraw.py-93---ERROR:{'code': 1, 'msg': '提现金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_withdraw.py", line 84, in test_withdraw
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '提现金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-24 23:05:12,325--test_withdraw.py-97---INFO:用例------【提现金额为-3位小数】------执行成功
+2021-10-24 23:05:12,797--test_withdraw.py-97---INFO:用例------【提现金额为-大于50W】------执行成功
+2021-10-24 23:05:13,310--test_withdraw.py-97---INFO:用例------【提现金额为非数字】------执行成功
+2021-10-25 02:18:31,793--test_add.py-106---INFO:用例------【新增项目成功】------执行成功
+2021-10-25 02:18:32,196--test_add.py-106---INFO:用例------【用户ID为空-失败】------执行成功
+2021-10-25 02:18:32,560--test_add.py-106---INFO:用例------【用户ID错误-失败】------执行成功
+2021-10-25 02:18:32,909--test_add.py-106---INFO:用例------【标题为空-失败】------执行成功
+2021-10-25 02:18:33,275--test_add.py-106---INFO:用例------【借款金额为空-失败】------执行成功
+2021-10-25 02:18:33,624--test_add.py-106---INFO:用例------【借款金额为1-失败】------执行成功
+2021-10-25 02:18:34,017--test_add.py-106---INFO:用例------【借款金额为50W-成功】------执行成功
+2021-10-25 02:18:34,376--test_add.py-106---INFO:用例------【借款金额为51W-失败】------执行成功
+2021-10-25 02:18:34,703--test_add.py-106---INFO:用例------【借款利率为空-失败】------执行成功
+2021-10-25 02:18:35,048--test_add.py-99---ERROR:用例------【借款利率为超过小数点后两位-失败】------执行失败
+2021-10-25 02:18:35,049--test_add.py-101---ERROR:{'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 137419, 'member_id': 1236985587, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-25 02:18:34.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_add.py", line 87, in test_add
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 137419, 'member_id': 1236985587, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-25 02:18:34.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 02:18:35,473--test_add.py-106---INFO:用例------【借款期限为空-失败】------执行成功
+2021-10-25 02:18:35,817--test_add.py-106---INFO:用例------【借款借款类型为空-失败】------执行成功
+2021-10-25 02:18:36,184--test_add.py-106---INFO:用例------【竞标天数为空-失败】------执行成功
+2021-10-25 02:18:36,610--test_add.py-106---INFO:用例------【借款期限超过36个月-失败】------执行成功
+2021-10-25 14:44:43,353--test_audit.py-129---ERROR:用例------【审核状态为空】------执行失败
+2021-10-25 14:44:43,353--test_audit.py-130---ERROR:{'code': 1, 'msg': 'approved_or_not为空'} not in {'code': 1, 'msg': 'approved_or_not只能为true或者false', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 126, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': 'approved_or_not为空'} not in {'code': 1, 'msg': 'approved_or_not只能为true或者false', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 14:46:24,299--test_audit.py-129---ERROR:用例------【审核状态为空】------执行失败
+2021-10-25 14:46:24,300--test_audit.py-130---ERROR:{'code': 1, 'msg': 'approved_or_not为空'} not in {'code': 1, 'msg': 'approved_or_not只能为true或者false', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 126, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': 'approved_or_not为空'} not in {'code': 1, 'msg': 'approved_or_not只能为true或者false', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 14:46:42,520--test_audit.py-129---ERROR:用例------【审核状态为空】------执行失败
+2021-10-25 14:46:42,520--test_audit.py-130---ERROR:{'code': 1, 'msg': 'approved_or_not为空'} not in {'code': 1, 'msg': 'approved_or_not只能为true或者false', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 126, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': 'approved_or_not为空'} not in {'code': 1, 'msg': 'approved_or_not只能为true或者false', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 14:48:01,019--test_audit.py-129---ERROR:用例------【审核状态为空】------执行失败
+2021-10-25 14:48:01,019--test_audit.py-130---ERROR:{'code': 1, 'msg': 'approved_or_not为空'} not in {'code': 1, 'msg': 'approved_or_not只能为true或者false', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 126, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': 'approved_or_not为空'} not in {'code': 1, 'msg': 'approved_or_not只能为true或者false', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 14:54:01,056--test_audit.py-134---INFO:用例------【审核成功】------执行成功
+2021-10-25 14:54:01,210--test_audit.py-129---ERROR:用例------【审核-失败】------执行失败
+2021-10-25 14:54:01,210--test_audit.py-130---ERROR:{'code': 2, 'msg': '项目不存在'} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 126, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '项目不存在'} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 14:54:01,409--test_audit.py-129---ERROR:用例------【审核状态为空】------执行失败
+2021-10-25 14:54:01,410--test_audit.py-130---ERROR:{'code': 1, 'msg': 'approved_or_not为空'} not in {'code': 1, 'msg': 'approved_or_not只能为true或者false', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 126, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': 'approved_or_not为空'} not in {'code': 1, 'msg': 'approved_or_not只能为true或者false', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 14:54:01,555--test_audit.py-129---ERROR:用例------【项目ID为空】------执行失败
+2021-10-25 14:54:01,555--test_audit.py-130---ERROR:{'code': 1, 'msg': '项目id为空'} not in {'code': 2, 'msg': '数值格式异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 126, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '项目id为空'} not in {'code': 2, 'msg': '数值格式异常', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 14:54:01,711--test_audit.py-134---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 14:55:25,188--test_audit.py-134---INFO:用例------【审核成功】------执行成功
+2021-10-25 14:55:25,346--test_audit.py-129---ERROR:用例------【审核-失败】------执行失败
+2021-10-25 14:55:25,347--test_audit.py-130---ERROR:{'code': 2, 'msg': '项目不存在'} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 126, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '项目不存在'} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 14:55:25,539--test_audit.py-134---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 14:55:25,693--test_audit.py-134---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 14:55:25,836--test_audit.py-134---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:07:24,486--test_audit.py-136---INFO:用例------【审核成功】------执行成功
+2021-10-25 15:07:24,650--test_audit.py-131---ERROR:用例------【审核-失败】------执行失败
+2021-10-25 15:07:24,651--test_audit.py-132---ERROR:{'code': 2, 'msg': '项目不存在'} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 128, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '项目不存在'} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:07:24,816--test_audit.py-136---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:07:24,972--test_audit.py-136---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:07:25,122--test_audit.py-136---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:07:25,291--test_audit.py-136---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:16:43,772--test_audit.py-143---INFO:用例------【审核成功】------执行成功
+2021-10-25 15:16:43,927--test_audit.py-138---ERROR:用例------【审核-失败】------执行失败
+2021-10-25 15:16:43,927--test_audit.py-139---ERROR:{'code': 2, 'msg': '项目不存在'} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 130, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '项目不存在'} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:16:44,129--test_audit.py-143---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:16:44,271--test_audit.py-143---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:16:44,408--test_audit.py-143---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:16:44,544--test_audit.py-143---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:17:45,156--test_audit.py-143---INFO:用例------【审核成功】------执行成功
+2021-10-25 15:17:45,364--test_audit.py-143---INFO:用例------【审核-失败】------执行成功
+2021-10-25 15:17:45,506--test_audit.py-143---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:17:45,661--test_audit.py-143---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:17:45,803--test_audit.py-143---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:17:45,952--test_audit.py-143---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:18:07,968--test_audit.py-143---INFO:用例------【审核成功】------执行成功
+2021-10-25 15:18:08,184--test_audit.py-143---INFO:用例------【审核-失败】------执行成功
+2021-10-25 15:18:08,322--test_audit.py-143---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:18:08,464--test_audit.py-143---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:18:08,613--test_audit.py-143---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:18:08,766--test_audit.py-143---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:20:16,246--test_audit.py-139---ERROR:用例------【审核成功】------执行失败
+2021-10-25 15:20:16,246--test_audit.py-140---ERROR:{'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 130, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:20:16,419--test_audit.py-139---ERROR:用例------【审核-失败】------执行失败
+2021-10-25 15:20:16,419--test_audit.py-140---ERROR:{'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 130, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:20:16,572--test_audit.py-144---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:20:16,730--test_audit.py-144---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:20:16,876--test_audit.py-144---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:20:17,023--test_audit.py-144---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:20:49,835--test_audit.py-139---ERROR:用例------【审核成功】------执行失败
+2021-10-25 15:20:49,835--test_audit.py-140---ERROR:{'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 130, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:20:50,006--test_audit.py-139---ERROR:用例------【审核-失败】------执行失败
+2021-10-25 15:20:50,007--test_audit.py-140---ERROR:{'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 130, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:20:50,153--test_audit.py-144---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:20:50,307--test_audit.py-144---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:20:50,457--test_audit.py-144---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:20:50,601--test_audit.py-144---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:22:41,991--test_audit.py-145---INFO:用例------【审核成功】------执行成功
+2021-10-25 15:22:42,188--test_audit.py-145---INFO:用例------【审核-失败】------执行成功
+2021-10-25 15:22:42,335--test_audit.py-145---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:22:42,479--test_audit.py-145---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:22:42,621--test_audit.py-145---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:22:42,764--test_audit.py-145---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:23:32,904--test_audit.py-141---ERROR:用例------【审核成功】------执行失败
+2021-10-25 15:23:32,904--test_audit.py-142---ERROR:{'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 132, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:23:33,110--test_audit.py-141---ERROR:用例------【审核-失败】------执行失败
+2021-10-25 15:23:33,110--test_audit.py-142---ERROR:{'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 132, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:23:33,264--test_audit.py-146---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:23:33,413--test_audit.py-146---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:23:33,553--test_audit.py-146---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:23:33,701--test_audit.py-146---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:24:59,559--test_audit.py-142---ERROR:用例------【审核成功】------执行失败
+2021-10-25 15:24:59,560--test_audit.py-143---ERROR:{'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 132, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:24:59,717--test_audit.py-142---ERROR:用例------【审核-失败】------执行失败
+2021-10-25 15:24:59,717--test_audit.py-143---ERROR:{'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 132, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:24:59,867--test_audit.py-147---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:25:00,049--test_audit.py-147---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:25:00,208--test_audit.py-147---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:25:00,351--test_audit.py-147---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:26:10,918--test_audit.py-142---ERROR:用例------【审核成功】------执行失败
+2021-10-25 15:26:10,918--test_audit.py-143---ERROR:{'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 132, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:26:11,106--test_audit.py-142---ERROR:用例------【审核-失败】------执行失败
+2021-10-25 15:26:11,106--test_audit.py-143---ERROR:{'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 132, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:26:11,258--test_audit.py-147---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:26:11,413--test_audit.py-147---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:26:11,591--test_audit.py-147---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:26:11,738--test_audit.py-147---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:26:43,168--test_audit.py-143---ERROR:用例------【审核成功】------执行失败
+2021-10-25 15:26:43,168--test_audit.py-144---ERROR:{'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 132, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:26:43,326--test_audit.py-143---ERROR:用例------【审核-失败】------执行失败
+2021-10-25 15:26:43,326--test_audit.py-144---ERROR:{'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 132, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:26:43,480--test_audit.py-148---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:26:43,625--test_audit.py-148---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:26:43,762--test_audit.py-148---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:26:43,923--test_audit.py-148---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:27:04,457--test_audit.py-143---ERROR:用例------【审核成功】------执行失败
+2021-10-25 15:27:04,457--test_audit.py-144---ERROR:{'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 132, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 2} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:27:04,614--test_audit.py-143---ERROR:用例------【审核-失败】------执行失败
+2021-10-25 15:27:04,614--test_audit.py-144---ERROR:{'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_audit.py", line 132, in test_audit
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK', 'status': 5} not in {'code': 0, 'msg': 'OK', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:27:04,758--test_audit.py-148---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:27:04,923--test_audit.py-148---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:27:05,060--test_audit.py-148---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:27:05,207--test_audit.py-148---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:28:41,313--test_audit.py-147---INFO:用例------【审核成功】------执行成功
+2021-10-25 15:28:41,760--test_audit.py-147---INFO:用例------【审核-失败】------执行成功
+2021-10-25 15:28:41,994--test_audit.py-147---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:28:42,233--test_audit.py-147---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:28:42,420--test_audit.py-147---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:28:42,588--test_audit.py-147---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:42:19,842--test_add.py-106---INFO:用例------【新增项目成功】------执行成功
+2021-10-25 15:42:20,213--test_add.py-106---INFO:用例------【用户ID为空-失败】------执行成功
+2021-10-25 15:42:20,567--test_add.py-106---INFO:用例------【用户ID错误-失败】------执行成功
+2021-10-25 15:42:20,916--test_add.py-106---INFO:用例------【标题为空-失败】------执行成功
+2021-10-25 15:42:21,252--test_add.py-106---INFO:用例------【借款金额为空-失败】------执行成功
+2021-10-25 15:42:21,625--test_add.py-106---INFO:用例------【借款金额为1-失败】------执行成功
+2021-10-25 15:42:22,162--test_add.py-106---INFO:用例------【借款金额为50W-成功】------执行成功
+2021-10-25 15:42:22,685--test_add.py-106---INFO:用例------【借款金额为51W-失败】------执行成功
+2021-10-25 15:42:23,041--test_add.py-106---INFO:用例------【借款利率为空-失败】------执行成功
+2021-10-25 15:42:23,399--test_add.py-99---ERROR:用例------【借款利率为超过小数点后两位-失败】------执行失败
+2021-10-25 15:42:23,399--test_add.py-101---ERROR:{'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 137649, 'member_id': 1236985587, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-25 15:42:23.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_add.py", line 87, in test_add
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 137649, 'member_id': 1236985587, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-25 15:42:23.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:42:23,724--test_add.py-106---INFO:用例------【借款期限为空-失败】------执行成功
+2021-10-25 15:42:24,090--test_add.py-106---INFO:用例------【借款借款类型为空-失败】------执行成功
+2021-10-25 15:42:24,461--test_add.py-106---INFO:用例------【竞标天数为空-失败】------执行成功
+2021-10-25 15:42:24,790--test_add.py-106---INFO:用例------【借款期限超过36个月-失败】------执行成功
+2021-10-25 15:42:25,193--test_audit.py-147---INFO:用例------【审核成功】------执行成功
+2021-10-25 15:42:25,405--test_audit.py-147---INFO:用例------【审核-失败】------执行成功
+2021-10-25 15:42:25,550--test_audit.py-147---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 15:42:25,687--test_audit.py-147---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 15:42:25,871--test_audit.py-147---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 15:42:26,019--test_audit.py-147---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 15:42:26,199--test_info.py-84---INFO:用例------【查询成功】------执行成功
+2021-10-25 15:42:26,310--test_info.py-79---ERROR:用例------【查询id为为空】------执行失败
+2021-10-25 15:42:26,310--test_info.py-80---ERROR:{'code': 1004, 'msg': 'No handler found for GET /futureloan//member//info'} not in {'code': 1004, 'msg': 'No handler found for GET /futureloan/member//info', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_info.py", line 74, in test_info
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1004, 'msg': 'No handler found for GET /futureloan//member//info'} not in {'code': 1004, 'msg': 'No handler found for GET /futureloan/member//info', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:42:26,434--test_info.py-84---INFO:用例------【查询错误id】------执行成功
+2021-10-25 15:42:26,851--test_login.py-67---ERROR:用例----[登录成功-密码等9]----执行成功
+2021-10-25 15:42:27,140--test_login.py-59---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-10-25 15:42:27,140--test_login.py-60---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 54, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:42:27,244--test_login.py-67---ERROR:用例----[不输入手机号]----执行成功
+2021-10-25 15:42:27,369--test_login.py-67---ERROR:用例----[手机号长度10位]----执行成功
+2021-10-25 15:42:27,476--test_login.py-67---ERROR:用例----[手机号长度12位]----执行成功
+2021-10-25 15:42:27,601--test_login.py-67---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-10-25 15:42:27,882--test_login.py-67---ERROR:用例----[已注册过的手机号]----执行成功
+2021-10-25 15:42:28,159--test_login.py-67---ERROR:用例----[密码7位]----执行成功
+2021-10-25 15:42:28,424--test_login.py-67---ERROR:用例----[密码17位]----执行成功
+2021-10-25 15:42:28,537--test_login.py-67---ERROR:用例----[不输入密码]----执行成功
+2021-10-25 15:42:28,787--test_login.py-67---ERROR:用例----[账号未注册]----执行成功
+2021-10-25 15:42:28,897--test_login.py-67---ERROR:用例----[不输入账号，密码]----执行成功
+2021-10-25 15:42:29,487--test_recharge.py-118---INFO:用例------【充值成功】------执行成功
+2021-10-25 15:42:29,886--test_recharge.py-118---INFO:用例------【id错误】------执行成功
+2021-10-25 15:42:30,276--test_recharge.py-118---INFO:用例------【不输入id】------执行成功
+2021-10-25 15:42:30,682--test_recharge.py-113---ERROR:用例------【不输入金额】------执行失败
+2021-10-25 15:42:30,683--test_recharge.py-114---ERROR:{'code': 1, 'msg': '充值金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '充值金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:42:31,137--test_recharge.py-113---ERROR:用例------【充值金额为负数】------执行失败
+2021-10-25 15:42:31,137--test_recharge.py-114---ERROR:{'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:42:31,546--test_recharge.py-113---ERROR:用例------【充值金额为500001】------执行失败
+2021-10-25 15:42:31,546--test_recharge.py-114---ERROR:{'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:42:31,971--test_recharge.py-113---ERROR:用例------【充值金额非数字】------执行失败
+2021-10-25 15:42:31,971--test_recharge.py-114---ERROR:{'code': 2, 'msg': '充值金额必须为数值型'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须为数值型'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:42:32,377--test_recharge.py-113---ERROR:用例------【充值金额小数点三位】------执行失败
+2021-10-25 15:42:32,377--test_recharge.py-114---ERROR:{'code': 2, 'msg': '充值金额小数超过两位'} not in {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额小数超过两位'} not in {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:42:32,784--test_recharge.py-118---INFO:用例------【充值成功50w】------执行成功
+2021-10-25 15:42:33,222--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-10-25 15:42:33,660--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-10-25 15:42:33,769--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-10-25 15:42:33,892--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-10-25 15:42:33,996--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-10-25 15:42:34,113--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-10-25 15:42:34,404--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-10-25 15:42:34,549--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-10-25 15:42:34,662--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-10-25 15:42:34,772--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-10-25 15:42:34,884--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-10-25 15:42:34,995--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-10-25 15:42:35,425--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-10-25 15:42:35,724--test_update.py-83---INFO:用例------【更新昵称-成功-中文】------执行成功
+2021-10-25 15:42:35,835--test_update.py-83---INFO:用例------【更新昵称-成功-英文】------执行成功
+2021-10-25 15:42:35,960--test_update.py-83---INFO:用例------【更新昵称-成功-字符】------执行成功
+2021-10-25 15:42:36,074--test_update.py-83---INFO:用例------【更新昵称-成功-数字】------执行成功
+2021-10-25 15:42:36,190--test_update.py-83---INFO:用例------【更新昵称-成功-英文数字混合】------执行成功
+2021-10-25 15:42:36,369--test_update.py-83---INFO:用例------【更新昵称-成功-英文中文混合】------执行成功
+2021-10-25 15:42:36,478--test_update.py-83---INFO:用例------【更新昵称-成功-中文数字混合】------执行成功
+2021-10-25 15:42:36,611--test_update.py-83---INFO:用例------【更新昵称-成功-英文数字中文混合】------执行成功
+2021-10-25 15:42:36,733--test_update.py-83---INFO:用例------【更新昵称-成功-英文数字中文字符混合】------执行成功
+2021-10-25 15:42:36,851--test_update.py-83---INFO:用例------【更新昵称-成功-中文字符混合】------执行成功
+2021-10-25 15:42:36,962--test_update.py-78---ERROR:用例------【更新昵称-长度等于10位】------执行失败
+2021-10-25 15:42:36,962--test_update.py-79---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_update.py", line 73, in test_update
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:42:37,071--test_update.py-83---INFO:用例------【更新昵称-长度大于10位】------执行成功
+2021-10-25 15:42:37,193--test_update.py-83---INFO:用例------【更新昵称-不输入修改昵称】------执行成功
+2021-10-25 15:42:37,305--test_update.py-83---INFO:用例------【更新昵称-长度为1位】------执行成功
+2021-10-25 15:42:37,417--test_update.py-83---INFO:用例------【更新昵称-不传入会员ID】------执行成功
+2021-10-25 15:42:37,530--test_update.py-83---INFO:用例------【更新昵称-传入错误会员ID】------执行成功
+2021-10-25 15:42:37,671--test_update.py-83---INFO:用例------【更新昵称-无会员id参数】------执行成功
+2021-10-25 15:42:37,780--test_update.py-83---INFO:用例------【更新昵称-无昵称参数】------执行成功
+2021-10-25 15:42:38,367--test_withdraw.py-97---INFO:用例------【提现成功-整数】------执行成功
+2021-10-25 15:42:38,762--test_withdraw.py-97---INFO:用例------【提现成功-小数】------执行成功
+2021-10-25 15:42:39,143--test_withdraw.py-97---INFO:用例------【提现成功-两位小数】------执行成功
+2021-10-25 15:42:39,535--test_withdraw.py-97---INFO:用例------【提现成功-50w】------执行成功
+2021-10-25 15:42:39,989--test_withdraw.py-97---INFO:用例------【提现ID为空】------执行成功
+2021-10-25 15:42:40,480--test_withdraw.py-97---INFO:用例------【会员ID为小数】------执行成功
+2021-10-25 15:42:40,896--test_withdraw.py-92---ERROR:用例------【提现金额为0】------执行失败
+2021-10-25 15:42:40,896--test_withdraw.py-93---ERROR:{'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 1236985587, 'leave_amount': 1001895.38, 'mobile_phone': '13499009876', 'reg_name': 'a', 'reg_time': '2021-10-14 15:39:32.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_withdraw.py", line 84, in test_withdraw
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 1236985587, 'leave_amount': 1001895.38, 'mobile_phone': '13499009876', 'reg_name': 'a', 'reg_time': '2021-10-14 15:39:32.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:42:41,282--test_withdraw.py-97---INFO:用例------【提现金额为负数】------执行成功
+2021-10-25 15:42:41,688--test_withdraw.py-92---ERROR:用例------【提现金额为空】------执行失败
+2021-10-25 15:42:41,688--test_withdraw.py-93---ERROR:{'code': 1, 'msg': '提现金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_withdraw.py", line 84, in test_withdraw
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '提现金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 15:42:42,100--test_withdraw.py-97---INFO:用例------【提现金额为-3位小数】------执行成功
+2021-10-25 15:42:42,491--test_withdraw.py-97---INFO:用例------【提现金额为-大于50W】------执行成功
+2021-10-25 15:42:42,896--test_withdraw.py-97---INFO:用例------【提现金额为非数字】------执行成功
+2021-10-25 15:56:53,784--test_login.py-68---ERROR:用例----[登录成功-密码等9]----执行成功
+2021-10-25 15:56:54,047--test_login.py-68---ERROR:用例----[登录成功-密码等16]----执行成功
+2021-10-25 15:56:54,171--test_login.py-68---ERROR:用例----[不输入手机号]----执行成功
+2021-10-25 15:56:54,298--test_login.py-68---ERROR:用例----[手机号长度10位]----执行成功
+2021-10-25 15:56:54,421--test_login.py-68---ERROR:用例----[手机号长度12位]----执行成功
+2021-10-25 15:56:54,540--test_login.py-68---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-10-25 15:56:54,796--test_login.py-68---ERROR:用例----[已注册过的手机号]----执行成功
+2021-10-25 15:56:55,042--test_login.py-68---ERROR:用例----[密码7位]----执行成功
+2021-10-25 15:56:55,295--test_login.py-68---ERROR:用例----[密码17位]----执行成功
+2021-10-25 15:56:55,425--test_login.py-68---ERROR:用例----[不输入密码]----执行成功
+2021-10-25 15:56:55,689--test_login.py-68---ERROR:用例----[账号未注册]----执行成功
+2021-10-25 15:56:55,814--test_login.py-68---ERROR:用例----[不输入账号，密码]----执行成功
+2021-10-25 16:05:19,975--test_audit.py-148---INFO:用例------【审核成功】------执行成功
+2021-10-25 16:05:20,179--test_audit.py-148---INFO:用例------【审核-失败】------执行成功
+2021-10-25 16:05:20,338--test_audit.py-148---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 16:05:20,490--test_audit.py-148---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 16:05:20,640--test_audit.py-148---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 16:05:20,791--test_audit.py-148---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 19:56:23,204--test_invest.py-65---INFO:用例------【投资人ID为空】------执行成功
+2021-10-25 19:57:14,553--test_invest.py-67---INFO:用例------【投资人ID为空】------执行成功
+2021-10-25 20:00:42,771--test_invest.py-62---ERROR:用例------【投资人正常投资】------执行失败
+2021-10-25 20:00:42,771--test_invest.py-63---ERROR:0 != 2
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 58, in test_invest
+    self.assertEqual(expected['code'], res['code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2021-10-25 20:00:42,923--test_invest.py-67---INFO:用例------【投资人ID为空】------执行成功
+2021-10-25 20:00:43,065--test_invest.py-67---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 20:00:43,192--test_invest.py-62---ERROR:用例------【投资金额为空】------执行失败
+2021-10-25 20:00:43,193--test_invest.py-63---ERROR:'投资金额为空' != '余额为空'
+- 投资金额为空
++ 余额为空
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 59, in test_invest
+    self.assertEqual(expected['msg'], res['msg'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 1211, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '投资金额为空' != '余额为空'
+- 投资金额为空
++ 余额为空
+
+2021-10-25 20:00:43,332--test_invest.py-67---INFO:用例------【投资金额为非100的整数倍】------执行成功
+2021-10-25 20:00:43,483--test_invest.py-62---ERROR:用例------【投资金额大于可投余额】------执行失败
+2021-10-25 20:00:43,483--test_invest.py-63---ERROR:'该标可投金额不足' != '该项目不在竞标中状态'
+- 该标可投金额不足
++ 该项目不在竞标中状态
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 59, in test_invest
+    self.assertEqual(expected['msg'], res['msg'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 1211, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '该标可投金额不足' != '该项目不在竞标中状态'
+- 该标可投金额不足
++ 该项目不在竞标中状态
+
+2021-10-25 20:00:43,652--test_invest.py-62---ERROR:用例------【投资金额超过用户余额】------执行失败
+2021-10-25 20:00:43,653--test_invest.py-63---ERROR:1002 != 2
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 58, in test_invest
+    self.assertEqual(expected['code'], res['code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1002 != 2
+2021-10-25 20:10:20,284--test_invest.py-68---INFO:用例------【投资人正常投资】------执行成功
+2021-10-25 20:10:20,438--test_invest.py-68---INFO:用例------【投资人ID为空】------执行成功
+2021-10-25 20:10:20,590--test_invest.py-68---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 20:10:20,721--test_invest.py-63---ERROR:用例------【投资金额为空】------执行失败
+2021-10-25 20:10:20,721--test_invest.py-64---ERROR:'投资金额为空' not found in '余额为空'
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 60, in test_invest
+    self.assertIn(expected['msg'], res['msg'])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 1098, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '投资金额为空' not found in '余额为空'
+2021-10-25 20:10:20,865--test_invest.py-68---INFO:用例------【投资金额为非100的整数倍】------执行成功
+2021-10-25 20:10:21,014--test_invest.py-68---INFO:用例------【投资金额大于可投余额】------执行成功
+2021-10-25 20:10:21,179--test_invest.py-63---ERROR:用例------【投资金额超过用户余额】------执行失败
+2021-10-25 20:10:21,180--test_invest.py-64---ERROR:1002 != 0
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 58, in test_invest
+    self.assertEqual(expected['code'], res['code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1002 != 0
+2021-10-25 21:27:50,980--test_invest.py-126---INFO:用例------【投资人正常投资】------执行成功
+2021-10-25 21:27:51,147--test_invest.py-126---INFO:用例------【投资人ID为空】------执行成功
+2021-10-25 21:27:51,276--test_invest.py-126---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 21:27:51,404--test_invest.py-121---ERROR:用例------【投资金额为空】------执行失败
+2021-10-25 21:27:51,404--test_invest.py-122---ERROR:'投资金额为空' not found in '余额为空'
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 110, in test_invest
+    self.assertIn(expected['msg'], res['msg'])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 1098, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '投资金额为空' not found in '余额为空'
+2021-10-25 21:27:51,546--test_invest.py-126---INFO:用例------【投资金额为非100的整数倍】------执行成功
+2021-10-25 21:27:51,716--test_invest.py-126---INFO:用例------【投资金额大于可投余额】------执行成功
+2021-10-25 21:27:51,880--test_invest.py-121---ERROR:用例------【投资金额超过用户余额】------执行失败
+2021-10-25 21:27:51,880--test_invest.py-122---ERROR:1002 != 0
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 108, in test_invest
+    self.assertEqual(expected['code'], res['code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1002 != 0
+2021-10-25 21:28:53,674--test_invest.py-126---INFO:用例------【投资人正常投资】------执行成功
+2021-10-25 21:28:53,817--test_invest.py-126---INFO:用例------【投资人ID为空】------执行成功
+2021-10-25 21:28:53,949--test_invest.py-126---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 21:28:54,086--test_invest.py-121---ERROR:用例------【投资金额为空】------执行失败
+2021-10-25 21:28:54,086--test_invest.py-122---ERROR:'投资金额为空' not found in '余额为空'
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 110, in test_invest
+    self.assertIn(expected['msg'], res['msg'])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 1098, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '投资金额为空' not found in '余额为空'
+2021-10-25 21:28:54,221--test_invest.py-126---INFO:用例------【投资金额为非100的整数倍】------执行成功
+2021-10-25 21:28:54,359--test_invest.py-126---INFO:用例------【投资金额大于可投余额】------执行成功
+2021-10-25 21:28:54,528--test_invest.py-121---ERROR:用例------【投资金额超过用户余额】------执行失败
+2021-10-25 21:28:54,528--test_invest.py-122---ERROR:1002 != 0
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 108, in test_invest
+    self.assertEqual(expected['code'], res['code'])
+  File "/Applications/PyCharm.app/Contents/plugins/python/helpers/pycharm/teamcity/diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1002 != 0
+2021-10-25 22:09:12,353--test_add.py-106---INFO:用例------【新增项目成功】------执行成功
+2021-10-25 22:09:12,762--test_add.py-106---INFO:用例------【用户ID为空-失败】------执行成功
+2021-10-25 22:09:13,136--test_add.py-106---INFO:用例------【用户ID错误-失败】------执行成功
+2021-10-25 22:09:13,528--test_add.py-106---INFO:用例------【标题为空-失败】------执行成功
+2021-10-25 22:09:13,940--test_add.py-106---INFO:用例------【借款金额为空-失败】------执行成功
+2021-10-25 22:09:14,359--test_add.py-106---INFO:用例------【借款金额为1-失败】------执行成功
+2021-10-25 22:09:14,801--test_add.py-106---INFO:用例------【借款金额为50W-成功】------执行成功
+2021-10-25 22:09:15,137--test_add.py-106---INFO:用例------【借款金额为51W-失败】------执行成功
+2021-10-25 22:09:15,470--test_add.py-106---INFO:用例------【借款利率为空-失败】------执行成功
+2021-10-25 22:09:15,863--test_add.py-99---ERROR:用例------【借款利率为超过小数点后两位-失败】------执行失败
+2021-10-25 22:09:15,863--test_add.py-101---ERROR:{'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 137776, 'member_id': 1236985587, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-25 22:09:15.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_add.py", line 87, in test_add
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 137776, 'member_id': 1236985587, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-10-25 22:09:15.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 22:09:16,317--test_add.py-106---INFO:用例------【借款期限为空-失败】------执行成功
+2021-10-25 22:09:16,678--test_add.py-106---INFO:用例------【借款借款类型为空-失败】------执行成功
+2021-10-25 22:09:17,074--test_add.py-106---INFO:用例------【竞标天数为空-失败】------执行成功
+2021-10-25 22:09:17,469--test_add.py-106---INFO:用例------【借款期限超过36个月-失败】------执行成功
+2021-10-25 22:09:18,040--test_audit.py-168---INFO:用例------【审核成功】------执行成功
+2021-10-25 22:09:18,340--test_audit.py-168---INFO:用例------【审核-失败】------执行成功
+2021-10-25 22:09:18,498--test_audit.py-168---INFO:用例------【项目不在审核状态】------执行成功
+2021-10-25 22:09:18,678--test_audit.py-168---INFO:用例------【审核状态为空】------执行成功
+2021-10-25 22:09:18,838--test_audit.py-168---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 22:09:19,001--test_audit.py-168---INFO:用例------【项目ID不存在】------执行成功
+2021-10-25 22:09:19,160--test_info.py-84---INFO:用例------【查询成功】------执行成功
+2021-10-25 22:09:19,298--test_info.py-79---ERROR:用例------【查询id为为空】------执行失败
+2021-10-25 22:09:19,298--test_info.py-80---ERROR:{'code': 1004, 'msg': 'No handler found for GET /futureloan//member//info'} not in {'code': 1004, 'msg': 'No handler found for GET /futureloan/member//info', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_info.py", line 74, in test_info
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1004, 'msg': 'No handler found for GET /futureloan//member//info'} not in {'code': 1004, 'msg': 'No handler found for GET /futureloan/member//info', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 22:09:19,427--test_info.py-84---INFO:用例------【查询错误id】------执行成功
+2021-10-25 22:09:20,550--test_invest.py-132---INFO:用例------【投资人正常投资】------执行成功
+2021-10-25 22:09:20,688--test_invest.py-132---INFO:用例------【投资人ID为空】------执行成功
+2021-10-25 22:09:20,827--test_invest.py-132---INFO:用例------【项目ID为空】------执行成功
+2021-10-25 22:09:20,960--test_invest.py-127---ERROR:用例------【投资金额为空】------执行失败
+2021-10-25 22:09:20,960--test_invest.py-128---ERROR:'投资金额为空' not found in '余额为空'
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 116, in test_invest
+    self.assertIn(expected['msg'], res['msg'])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 1098, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '投资金额为空' not found in '余额为空'
+2021-10-25 22:09:21,106--test_invest.py-132---INFO:用例------【投资金额为非100的整数倍】------执行成功
+2021-10-25 22:09:21,290--test_invest.py-132---INFO:用例------【投资金额大于可投余额】------执行成功
+2021-10-25 22:09:21,447--test_invest.py-127---ERROR:用例------【投资金额超过用户余额】------执行失败
+2021-10-25 22:09:21,447--test_invest.py-128---ERROR:1002 != 0
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 114, in test_invest
+    self.assertEqual(expected['code'], res['code'])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1002 != 0
+2021-10-25 22:09:21,728--test_login.py-70---ERROR:用例----[登录成功-密码等9]----执行成功
+2021-10-25 22:09:21,995--test_login.py-70---ERROR:用例----[登录成功-密码等16]----执行成功
+2021-10-25 22:09:22,145--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-10-25 22:09:22,295--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-10-25 22:09:22,413--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-10-25 22:09:22,569--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-10-25 22:09:22,855--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-10-25 22:09:23,135--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-10-25 22:09:23,415--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-10-25 22:09:23,534--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-10-25 22:09:23,829--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-10-25 22:09:24,005--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-10-25 22:09:24,552--test_recharge.py-118---INFO:用例------【充值成功】------执行成功
+2021-10-25 22:09:24,981--test_recharge.py-118---INFO:用例------【id错误】------执行成功
+2021-10-25 22:09:25,483--test_recharge.py-118---INFO:用例------【不输入id】------执行成功
+2021-10-25 22:09:25,930--test_recharge.py-113---ERROR:用例------【不输入金额】------执行失败
+2021-10-25 22:09:25,930--test_recharge.py-114---ERROR:{'code': 1, 'msg': '充值金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '充值金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 22:09:26,446--test_recharge.py-113---ERROR:用例------【充值金额为负数】------执行失败
+2021-10-25 22:09:26,446--test_recharge.py-114---ERROR:{'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 22:09:26,896--test_recharge.py-113---ERROR:用例------【充值金额为500001】------执行失败
+2021-10-25 22:09:26,896--test_recharge.py-114---ERROR:{'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 22:09:27,350--test_recharge.py-113---ERROR:用例------【充值金额非数字】------执行失败
+2021-10-25 22:09:27,351--test_recharge.py-114---ERROR:{'code': 2, 'msg': '充值金额必须为数值型'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须为数值型'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 22:09:27,831--test_recharge.py-113---ERROR:用例------【充值金额小数点三位】------执行失败
+2021-10-25 22:09:27,831--test_recharge.py-114---ERROR:{'code': 2, 'msg': '充值金额小数超过两位'} not in {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 98, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额小数超过两位'} not in {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 22:09:28,339--test_recharge.py-118---INFO:用例------【充值成功50w】------执行成功
+2021-10-25 22:09:28,904--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-10-25 22:09:29,413--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-10-25 22:09:29,562--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-10-25 22:09:29,715--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-10-25 22:09:29,875--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-10-25 22:09:30,070--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-10-25 22:09:30,349--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-10-25 22:09:30,536--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-10-25 22:09:30,697--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-10-25 22:09:30,851--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-10-25 22:09:31,009--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-10-25 22:09:31,173--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-10-25 22:09:31,688--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-10-25 22:09:32,092--test_update.py-83---INFO:用例------【更新昵称-成功-中文】------执行成功
+2021-10-25 22:09:32,265--test_update.py-83---INFO:用例------【更新昵称-成功-英文】------执行成功
+2021-10-25 22:09:32,463--test_update.py-83---INFO:用例------【更新昵称-成功-字符】------执行成功
+2021-10-25 22:09:32,635--test_update.py-83---INFO:用例------【更新昵称-成功-数字】------执行成功
+2021-10-25 22:09:32,750--test_update.py-83---INFO:用例------【更新昵称-成功-英文数字混合】------执行成功
+2021-10-25 22:09:32,883--test_update.py-83---INFO:用例------【更新昵称-成功-英文中文混合】------执行成功
+2021-10-25 22:09:33,024--test_update.py-83---INFO:用例------【更新昵称-成功-中文数字混合】------执行成功
+2021-10-25 22:09:33,210--test_update.py-83---INFO:用例------【更新昵称-成功-英文数字中文混合】------执行成功
+2021-10-25 22:09:33,397--test_update.py-83---INFO:用例------【更新昵称-成功-英文数字中文字符混合】------执行成功
+2021-10-25 22:09:33,555--test_update.py-83---INFO:用例------【更新昵称-成功-中文字符混合】------执行成功
+2021-10-25 22:09:33,735--test_update.py-78---ERROR:用例------【更新昵称-长度等于10位】------执行失败
+2021-10-25 22:09:33,735--test_update.py-79---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_update.py", line 73, in test_update
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 22:09:33,878--test_update.py-83---INFO:用例------【更新昵称-长度大于10位】------执行成功
+2021-10-25 22:09:34,072--test_update.py-83---INFO:用例------【更新昵称-不输入修改昵称】------执行成功
+2021-10-25 22:09:34,268--test_update.py-83---INFO:用例------【更新昵称-长度为1位】------执行成功
+2021-10-25 22:09:34,410--test_update.py-83---INFO:用例------【更新昵称-不传入会员ID】------执行成功
+2021-10-25 22:09:34,586--test_update.py-83---INFO:用例------【更新昵称-传入错误会员ID】------执行成功
+2021-10-25 22:09:34,725--test_update.py-83---INFO:用例------【更新昵称-无会员id参数】------执行成功
+2021-10-25 22:09:34,855--test_update.py-83---INFO:用例------【更新昵称-无昵称参数】------执行成功
+2021-10-25 22:09:35,449--test_withdraw.py-96---INFO:用例------【提现成功-整数】------执行成功
+2021-10-25 22:09:36,003--test_withdraw.py-96---INFO:用例------【提现成功-小数】------执行成功
+2021-10-25 22:09:36,443--test_withdraw.py-96---INFO:用例------【提现成功-两位小数】------执行成功
+2021-10-25 22:09:36,835--test_withdraw.py-96---INFO:用例------【提现成功-50w】------执行成功
+2021-10-25 22:09:37,331--test_withdraw.py-96---INFO:用例------【提现ID为空】------执行成功
+2021-10-25 22:09:37,874--test_withdraw.py-96---INFO:用例------【会员ID为小数】------执行成功
+2021-10-25 22:09:38,294--test_withdraw.py-91---ERROR:用例------【提现金额为0】------执行失败
+2021-10-25 22:09:38,294--test_withdraw.py-92---ERROR:{'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 1236985587, 'leave_amount': 996094.96, 'mobile_phone': '13499009876', 'reg_name': 'a', 'reg_time': '2021-10-14 15:39:32.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_withdraw.py", line 83, in test_withdraw
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 1236985587, 'leave_amount': 996094.96, 'mobile_phone': '13499009876', 'reg_name': 'a', 'reg_time': '2021-10-14 15:39:32.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 22:09:38,798--test_withdraw.py-96---INFO:用例------【提现金额为负数】------执行成功
+2021-10-25 22:09:39,285--test_withdraw.py-91---ERROR:用例------【提现金额为空】------执行失败
+2021-10-25 22:09:39,285--test_withdraw.py-92---ERROR:{'code': 1, 'msg': '提现金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_withdraw.py", line 83, in test_withdraw
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '提现金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 22:09:39,742--test_withdraw.py-96---INFO:用例------【提现金额为-3位小数】------执行成功
+2021-10-25 22:09:40,137--test_withdraw.py-96---INFO:用例------【提现金额为-大于50W】------执行成功
+2021-10-25 22:09:40,624--test_withdraw.py-96---INFO:用例------【提现金额为非数字】------执行成功
+2021-10-25 23:52:06,389--test_recharge_sign.py-126---INFO:用例------【充值成功】------执行成功
+2021-10-25 23:52:06,821--test_recharge_sign.py-126---INFO:用例------【id错误】------执行成功
+2021-10-25 23:52:07,218--test_recharge_sign.py-126---INFO:用例------【不输入id】------执行成功
+2021-10-25 23:52:07,653--test_recharge_sign.py-121---ERROR:用例------【不输入金额】------执行失败
+2021-10-25 23:52:07,653--test_recharge_sign.py-122---ERROR:{'code': 1, 'msg': '充值金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge_sign.py", line 106, in test_recharge_sign
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '充值金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 23:52:08,078--test_recharge_sign.py-121---ERROR:用例------【充值金额为负数】------执行失败
+2021-10-25 23:52:08,078--test_recharge_sign.py-122---ERROR:{'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge_sign.py", line 106, in test_recharge_sign
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 23:52:08,501--test_recharge_sign.py-121---ERROR:用例------【充值金额为500001】------执行失败
+2021-10-25 23:52:08,501--test_recharge_sign.py-122---ERROR:{'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge_sign.py", line 106, in test_recharge_sign
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 23:52:08,894--test_recharge_sign.py-121---ERROR:用例------【充值金额非数字】------执行失败
+2021-10-25 23:52:08,895--test_recharge_sign.py-122---ERROR:{'code': 2, 'msg': '充值金额必须为数值型'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge_sign.py", line 106, in test_recharge_sign
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须为数值型'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 23:52:09,277--test_recharge_sign.py-121---ERROR:用例------【充值金额小数点三位】------执行失败
+2021-10-25 23:52:09,277--test_recharge_sign.py-122---ERROR:{'code': 2, 'msg': '充值金额小数超过两位'} not in {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge_sign.py", line 106, in test_recharge_sign
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额小数超过两位'} not in {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-10-25 23:52:09,684--test_recharge_sign.py-126---INFO:用例------【充值成功50w】------执行成功
+2021-11-01 22:06:47,408--test_login.py-62---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-11-01 22:06:47,422--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:06:47,542--test_login.py-62---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-11-01 22:06:47,543--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:06:47,660--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:06:47,773--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:06:47,927--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:06:48,040--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:06:48,152--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:06:48,267--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:06:48,380--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:06:48,497--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:06:48,623--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 22:06:48,735--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 22:06:48,962--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-11-01 22:06:49,123--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-11-01 22:06:49,254--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:06:49,407--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:06:49,527--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:06:49,643--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:06:49,768--test_register.py-90---ERROR:用例----[已注册过的手机号]----执行失败
+2021-11-01 22:06:49,768--test_register.py-91---ERROR:{'code': 2, 'msg': '账号已存在'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 249, 'reg_name': '小柠檬', 'mobile_phone': '13400009876'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_register.py", line 80, in test_register
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '账号已存在'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 249, 'reg_name': '小柠檬', 'mobile_phone': '13400009876'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:06:49,879--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:06:49,999--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:06:50,125--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:06:50,242--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-11-01 22:06:50,355--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-11-01 22:06:50,514--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-11-01 22:11:41,122--test_login.py-62---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-11-01 22:11:41,123--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:11:41,244--test_login.py-62---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-11-01 22:11:41,244--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:11:41,378--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:11:41,501--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:11:41,644--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:11:41,758--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:11:41,865--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:11:42,015--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:11:42,134--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:11:42,253--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:11:42,382--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 22:11:42,504--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 22:11:42,739--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-11-01 22:11:42,904--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-11-01 22:11:43,014--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:11:43,166--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:11:43,284--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:11:43,403--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:11:43,522--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:11:43,642--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:11:43,755--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:11:43,907--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:11:44,037--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-11-01 22:11:44,143--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-11-01 22:11:44,326--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-11-01 22:22:52,952--test_login.py-62---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-11-01 22:22:52,952--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:22:53,114--test_login.py-62---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-11-01 22:22:53,114--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:22:53,325--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:22:53,471--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:22:53,664--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:22:53,777--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:22:53,893--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:22:54,020--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:22:54,142--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:22:54,262--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:22:54,381--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 22:22:54,496--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 22:22:54,804--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-11-01 22:22:54,970--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-11-01 22:22:55,092--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:22:55,295--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:22:55,419--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:22:55,527--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:22:55,666--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:22:55,810--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:22:55,965--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:22:56,091--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:22:56,238--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-11-01 22:22:56,392--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-11-01 22:22:56,626--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-11-01 22:27:46,387--test_login.py-62---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-11-01 22:27:46,387--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:27:46,531--test_login.py-62---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-11-01 22:27:46,531--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:27:46,676--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:27:46,821--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:27:47,023--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:27:47,165--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:27:47,343--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:27:47,472--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:27:47,659--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:27:47,774--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:27:47,923--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 22:27:48,055--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 22:27:48,400--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-11-01 22:27:48,619--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-11-01 22:27:48,747--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:27:48,932--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:27:49,073--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:27:49,235--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:27:49,407--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:27:49,565--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:27:49,721--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:27:49,866--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:27:49,993--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-11-01 22:27:50,110--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-11-01 22:27:50,316--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-11-01 22:35:40,869--test_login.py-62---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-11-01 22:35:40,870--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:35:40,989--test_login.py-62---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-11-01 22:35:40,989--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:35:41,116--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:35:41,291--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:35:41,471--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:35:41,643--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:35:41,800--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:35:41,975--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:35:42,144--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:35:42,301--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:35:42,452--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 22:35:42,586--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 22:35:42,842--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-11-01 22:35:43,044--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-11-01 22:35:43,164--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:35:43,358--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:35:43,518--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:35:43,683--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:35:43,840--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:35:43,966--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:35:44,097--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:35:44,265--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:35:44,412--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-11-01 22:35:44,521--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-11-01 22:35:44,698--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-11-01 22:47:22,474--test_login.py-62---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-11-01 22:47:22,475--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:47:22,596--test_login.py-62---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-11-01 22:47:22,596--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:47:22,741--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:47:22,903--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:47:23,088--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:47:23,218--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:47:23,347--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:47:23,573--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:47:23,690--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:47:23,831--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:47:24,001--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 22:47:24,158--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 22:47:24,498--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-11-01 22:47:24,700--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-11-01 22:47:24,817--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:47:25,000--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:47:25,160--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:47:25,322--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:47:25,489--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:47:25,660--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:47:25,789--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:47:25,934--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:47:26,051--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-11-01 22:47:26,184--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-11-01 22:47:26,394--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-11-01 22:47:58,987--test_login.py-62---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-11-01 22:47:58,987--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:47:59,125--test_login.py-62---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-11-01 22:47:59,125--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:47:59,243--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:47:59,392--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:47:59,565--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:47:59,720--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:47:59,885--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:48:00,044--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:48:00,208--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:48:00,371--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:48:00,497--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 22:48:00,623--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 22:48:00,839--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-11-01 22:48:01,073--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-11-01 22:48:01,190--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:48:01,345--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:48:01,525--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:48:01,704--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:48:01,814--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:48:01,952--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:48:02,088--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:48:02,232--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:48:02,361--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-11-01 22:48:02,477--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-11-01 22:48:02,688--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-11-01 22:48:59,470--test_login.py-62---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-11-01 22:48:59,471--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:48:59,668--test_login.py-62---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-11-01 22:48:59,668--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:48:59,784--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:48:59,906--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:49:00,125--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:49:00,293--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:49:00,445--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:49:00,631--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:49:00,793--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:49:00,955--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:49:01,124--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 22:49:01,249--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 22:49:01,523--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-11-01 22:49:01,759--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-11-01 22:49:01,887--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:49:02,032--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:49:02,169--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:49:02,356--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:49:02,527--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:49:02,696--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:49:02,824--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:49:02,949--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:49:03,090--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-11-01 22:49:03,214--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-11-01 22:49:03,438--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-11-01 22:49:28,522--test_login.py-62---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-11-01 22:49:28,522--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:49:28,633--test_login.py-62---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-11-01 22:49:28,633--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:49:28,825--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:49:28,964--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:49:29,120--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:49:29,261--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:49:29,383--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:49:29,502--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:49:29,629--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:49:29,791--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:49:29,908--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 22:49:30,038--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 22:49:30,292--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-11-01 22:49:30,473--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-11-01 22:49:30,596--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:49:30,792--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:49:30,964--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:49:31,090--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:49:31,261--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:49:31,439--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:49:31,606--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:49:31,762--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:49:31,953--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-11-01 22:49:32,059--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-11-01 22:49:32,251--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-11-01 22:59:21,306--test_login.py-62---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-11-01 22:59:21,307--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:59:21,476--test_login.py-62---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-11-01 22:59:21,477--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 22:59:21,642--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:59:21,768--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:59:21,881--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:59:22,028--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:59:22,210--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:59:22,397--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:59:22,524--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:59:22,649--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:59:22,781--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 22:59:22,893--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 22:59:23,157--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-11-01 22:59:23,393--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-11-01 22:59:23,503--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 22:59:23,705--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 22:59:23,834--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 22:59:23,942--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 22:59:24,065--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 22:59:24,182--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-11-01 22:59:24,305--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-11-01 22:59:24,419--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 22:59:24,544--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-11-01 22:59:24,755--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-11-01 22:59:24,944--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-11-01 23:08:40,477--test_login.py-62---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-11-01 23:08:40,478--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:08:40,633--test_login.py-62---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-11-01 23:08:40,634--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:08:40,807--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 23:08:40,933--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 23:08:41,063--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 23:08:41,192--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 23:08:41,317--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 23:08:41,448--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 23:08:41,601--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 23:08:41,715--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 23:08:41,837--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 23:08:42,000--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 23:11:05,998--test_login.py-62---ERROR:用例----[登录成功-密码等9]----执行失败
+2021-11-01 23:11:05,999--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:11:06,159--test_login.py-62---ERROR:用例----[登录成功-密码等16]----执行失败
+2021-11-01 23:11:06,160--test_login.py-63---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_login.py", line 57, in test_login
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 1001, 'msg': '账号信息错误', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:11:06,280--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 23:11:06,401--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 23:11:06,545--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 23:11:06,666--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 23:11:06,786--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 23:11:06,931--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 23:11:07,047--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 23:11:07,174--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 23:11:07,296--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 23:11:07,495--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 23:14:35,185--test_add.py-106---INFO:用例------【用户ID为空-失败】------执行成功
+2021-11-01 23:14:35,441--test_add.py-106---INFO:用例------【用户ID错误-失败】------执行成功
+2021-11-01 23:14:35,668--test_add.py-106---INFO:用例------【标题为空-失败】------执行成功
+2021-11-01 23:14:35,929--test_add.py-106---INFO:用例------【借款金额为空-失败】------执行成功
+2021-11-01 23:14:36,161--test_add.py-106---INFO:用例------【借款金额为1-失败】------执行成功
+2021-11-01 23:14:36,428--test_add.py-106---INFO:用例------【借款金额为50W-成功】------执行成功
+2021-11-01 23:14:36,659--test_add.py-106---INFO:用例------【借款金额为51W-失败】------执行成功
+2021-11-01 23:14:37,183--test_add.py-106---INFO:用例------【借款利率为空-失败】------执行成功
+2021-11-01 23:14:37,559--test_add.py-99---ERROR:用例------【借款利率为超过小数点后两位-失败】------执行失败
+2021-11-01 23:14:37,559--test_add.py-101---ERROR:{'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 109, 'member_id': 303, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-11-01 23:14:37.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_add.py", line 87, in test_add
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '借款利率范围错误'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 109, 'member_id': 303, 'title': '测试', 'amount': 5000.0, 'loan_rate': 18.0, 'loan_term': 12, 'loan_date_type': 1, 'bidding_days': 5, 'create_time': '2021-11-01 23:14:37.0', 'bidding_start_time': None, 'full_time': None, 'status': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:37,769--test_add.py-106---INFO:用例------【借款期限为空-失败】------执行成功
+2021-11-01 23:14:37,995--test_add.py-106---INFO:用例------【借款借款类型为空-失败】------执行成功
+2021-11-01 23:14:38,216--test_add.py-106---INFO:用例------【竞标天数为空-失败】------执行成功
+2021-11-01 23:14:38,449--test_add.py-106---INFO:用例------【借款期限超过36个月-失败】------执行成功
+2021-11-01 23:14:38,712--test_audit.py-167---INFO:用例------【审核成功】------执行成功
+2021-11-01 23:14:38,972--test_audit.py-167---INFO:用例------【审核-失败】------执行成功
+2021-11-01 23:14:39,145--test_audit.py-167---INFO:用例------【项目不在审核状态】------执行成功
+2021-11-01 23:14:39,299--test_audit.py-167---INFO:用例------【审核状态为空】------执行成功
+2021-11-01 23:14:39,500--test_audit.py-167---INFO:用例------【项目ID为空】------执行成功
+2021-11-01 23:14:39,653--test_audit.py-167---INFO:用例------【项目ID不存在】------执行成功
+2021-11-01 23:14:39,798--test_info.py-84---INFO:用例------【查询成功】------执行成功
+2021-11-01 23:14:39,986--test_info.py-79---ERROR:用例------【查询id为为空】------执行失败
+2021-11-01 23:14:39,986--test_info.py-80---ERROR:{'code': 1004, 'msg': 'No handler found for GET /futureloan//member//info'} not in {'code': 1004, 'msg': 'No handler found for GET /futureloan/member//info', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_info.py", line 74, in test_info
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1004, 'msg': 'No handler found for GET /futureloan//member//info'} not in {'code': 1004, 'msg': 'No handler found for GET /futureloan/member//info', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:40,136--test_info.py-84---INFO:用例------【查询错误id】------执行成功
+2021-11-01 23:14:40,680--test_invest.py-132---INFO:用例------【投资人ID为空】------执行成功
+2021-11-01 23:14:40,796--test_invest.py-132---INFO:用例------【项目ID为空】------执行成功
+2021-11-01 23:14:40,939--test_invest.py-127---ERROR:用例------【投资金额为空】------执行失败
+2021-11-01 23:14:40,939--test_invest.py-128---ERROR:'投资金额为空' not found in '余额为空'
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 116, in test_invest
+    self.assertIn(expected['msg'], res['msg'])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 1098, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: '投资金额为空' not found in '余额为空'
+2021-11-01 23:14:41,099--test_invest.py-132---INFO:用例------【投资金额为非100的整数倍】------执行成功
+2021-11-01 23:14:41,241--test_invest.py-132---INFO:用例------【投资金额大于可投余额】------执行成功
+2021-11-01 23:14:41,372--test_invest.py-127---ERROR:用例------【投资金额超过用户余额】------执行失败
+2021-11-01 23:14:41,373--test_invest.py-128---ERROR:1002 != 0
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_invest.py", line 114, in test_invest
+    self.assertEqual(expected['code'], res['code'])
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 824, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 1002 != 0
+2021-11-01 23:14:41,484--test_login.py-70---ERROR:用例----[登录成功-密码等9]----执行成功
+2021-11-01 23:14:41,597--test_login.py-70---ERROR:用例----[登录成功-密码等16]----执行成功
+2021-11-01 23:14:41,722--test_login.py-70---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 23:14:41,834--test_login.py-70---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 23:14:41,955--test_login.py-70---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 23:14:42,066--test_login.py-70---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 23:14:42,182--test_login.py-70---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 23:14:42,347--test_login.py-70---ERROR:用例----[密码7位]----执行成功
+2021-11-01 23:14:42,495--test_login.py-70---ERROR:用例----[密码17位]----执行成功
+2021-11-01 23:14:42,609--test_login.py-70---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 23:14:42,728--test_login.py-70---ERROR:用例----[账号未注册]----执行成功
+2021-11-01 23:14:42,846--test_login.py-70---ERROR:用例----[不输入账号，密码]----执行成功
+2021-11-01 23:14:43,179--test_recharge.py-122---INFO:用例------【充值成功】------执行成功
+2021-11-01 23:14:43,399--test_recharge.py-122---INFO:用例------【id错误】------执行成功
+2021-11-01 23:14:43,645--test_recharge.py-122---INFO:用例------【不输入id】------执行成功
+2021-11-01 23:14:43,888--test_recharge.py-117---ERROR:用例------【不输入金额】------执行失败
+2021-11-01 23:14:43,889--test_recharge.py-118---ERROR:{'code': 1, 'msg': '充值金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 102, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '充值金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:44,106--test_recharge.py-117---ERROR:用例------【充值金额为负数】------执行失败
+2021-11-01 23:14:44,106--test_recharge.py-118---ERROR:{'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 102, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:44,379--test_recharge.py-117---ERROR:用例------【充值金额为500001】------执行失败
+2021-11-01 23:14:44,380--test_recharge.py-118---ERROR:{'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 102, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:44,601--test_recharge.py-117---ERROR:用例------【充值金额非数字】------执行失败
+2021-11-01 23:14:44,601--test_recharge.py-118---ERROR:{'code': 2, 'msg': '充值金额必须为数值型'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 102, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须为数值型'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:44,847--test_recharge.py-117---ERROR:用例------【充值金额小数点三位】------执行失败
+2021-11-01 23:14:44,847--test_recharge.py-118---ERROR:{'code': 2, 'msg': '充值金额小数超过两位'} not in {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge.py", line 102, in test_recharge
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额小数超过两位'} not in {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:45,124--test_recharge.py-122---INFO:用例------【充值成功50w】------执行成功
+2021-11-01 23:14:45,493--test_recharge_sign.py-126---INFO:用例------【充值成功】------执行成功
+2021-11-01 23:14:45,706--test_recharge_sign.py-126---INFO:用例------【id错误】------执行成功
+2021-11-01 23:14:45,991--test_recharge_sign.py-126---INFO:用例------【不输入id】------执行成功
+2021-11-01 23:14:46,217--test_recharge_sign.py-121---ERROR:用例------【不输入金额】------执行失败
+2021-11-01 23:14:46,217--test_recharge_sign.py-122---ERROR:{'code': 1, 'msg': '充值金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge_sign.py", line 106, in test_recharge_sign
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '充值金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:46,460--test_recharge_sign.py-121---ERROR:用例------【充值金额为负数】------执行失败
+2021-11-01 23:14:46,460--test_recharge_sign.py-122---ERROR:{'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge_sign.py", line 106, in test_recharge_sign
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:46,684--test_recharge_sign.py-121---ERROR:用例------【充值金额为500001】------执行失败
+2021-11-01 23:14:46,684--test_recharge_sign.py-122---ERROR:{'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge_sign.py", line 106, in test_recharge_sign
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须大于0并且小于或者等于500000'} not in {'code': 2, 'msg': '余额必须大于0并且小于或者等于500000', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:46,984--test_recharge_sign.py-121---ERROR:用例------【充值金额非数字】------执行失败
+2021-11-01 23:14:46,984--test_recharge_sign.py-122---ERROR:{'code': 2, 'msg': '充值金额必须为数值型'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge_sign.py", line 106, in test_recharge_sign
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额必须为数值型'} not in {'code': 2, 'msg': '余额必须为数值型', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:47,240--test_recharge_sign.py-121---ERROR:用例------【充值金额小数点三位】------执行失败
+2021-11-01 23:14:47,240--test_recharge_sign.py-122---ERROR:{'code': 2, 'msg': '充值金额小数超过两位'} not in {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_recharge_sign.py", line 106, in test_recharge_sign
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '充值金额小数超过两位'} not in {'code': 2, 'msg': '余额小数超过两位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:47,458--test_recharge_sign.py-126---INFO:用例------【充值成功50w】------执行成功
+2021-11-01 23:14:47,615--test_register.py-98---ERROR:用例----[注册成功-带注册名]----执行成功
+2021-11-01 23:14:47,811--test_register.py-98---ERROR:用例----[成功-不带用户名]----执行成功
+2021-11-01 23:14:47,946--test_register.py-98---ERROR:用例----[不输入手机号]----执行成功
+2021-11-01 23:14:48,062--test_register.py-98---ERROR:用例----[手机号长度10位]----执行成功
+2021-11-01 23:14:48,176--test_register.py-98---ERROR:用例----[手机号长度12位]----执行成功
+2021-11-01 23:14:48,302--test_register.py-98---ERROR:用例----[手机号含有非法字符]----执行成功
+2021-11-01 23:14:48,420--test_register.py-98---ERROR:用例----[已注册过的手机号]----执行成功
+2021-11-01 23:14:48,562--test_register.py-98---ERROR:用例----[密码7位]----执行成功
+2021-11-01 23:14:48,712--test_register.py-98---ERROR:用例----[密码17位]----执行成功
+2021-11-01 23:14:48,820--test_register.py-98---ERROR:用例----[不输入密码]----执行成功
+2021-11-01 23:14:48,967--test_register.py-98---ERROR:用例----[注册名11位]----执行成功
+2021-11-01 23:14:49,096--test_register.py-98---ERROR:用例----[类型输入非0，1内容]----执行成功
+2021-11-01 23:14:49,256--test_register.py-98---ERROR:用例----[不输入类型]----执行成功
+2021-11-01 23:14:49,448--test_update.py-83---INFO:用例------【更新昵称-成功-中文】------执行成功
+2021-11-01 23:14:49,606--test_update.py-83---INFO:用例------【更新昵称-成功-英文】------执行成功
+2021-11-01 23:14:49,723--test_update.py-83---INFO:用例------【更新昵称-成功-字符】------执行成功
+2021-11-01 23:14:49,841--test_update.py-83---INFO:用例------【更新昵称-成功-数字】------执行成功
+2021-11-01 23:14:49,957--test_update.py-83---INFO:用例------【更新昵称-成功-英文数字混合】------执行成功
+2021-11-01 23:14:50,107--test_update.py-83---INFO:用例------【更新昵称-成功-英文中文混合】------执行成功
+2021-11-01 23:14:50,229--test_update.py-83---INFO:用例------【更新昵称-成功-中文数字混合】------执行成功
+2021-11-01 23:14:50,356--test_update.py-83---INFO:用例------【更新昵称-成功-英文数字中文混合】------执行成功
+2021-11-01 23:14:50,476--test_update.py-83---INFO:用例------【更新昵称-成功-英文数字中文字符混合】------执行成功
+2021-11-01 23:14:50,597--test_update.py-83---INFO:用例------【更新昵称-成功-中文字符混合】------执行成功
+2021-11-01 23:14:50,713--test_update.py-78---ERROR:用例------【更新昵称-长度等于10位】------执行失败
+2021-11-01 23:14:50,713--test_update.py-79---ERROR:{'code': 0, 'msg': 'OK'} not in {'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_update.py", line 73, in test_update
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 0, 'msg': 'OK'} not in {'code': 2, 'msg': '用户昵称长度超过10位', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:50,838--test_update.py-83---INFO:用例------【更新昵称-长度大于10位】------执行成功
+2021-11-01 23:14:50,948--test_update.py-83---INFO:用例------【更新昵称-不输入修改昵称】------执行成功
+2021-11-01 23:14:51,086--test_update.py-83---INFO:用例------【更新昵称-长度为1位】------执行成功
+2021-11-01 23:14:51,251--test_update.py-83---INFO:用例------【更新昵称-不传入会员ID】------执行成功
+2021-11-01 23:14:51,388--test_update.py-83---INFO:用例------【更新昵称-传入错误会员ID】------执行成功
+2021-11-01 23:14:51,551--test_update.py-83---INFO:用例------【更新昵称-无会员id参数】------执行成功
+2021-11-01 23:14:51,677--test_update.py-83---INFO:用例------【更新昵称-无昵称参数】------执行成功
+2021-11-01 23:14:51,929--test_withdraw.py-96---INFO:用例------【提现成功-整数】------执行成功
+2021-11-01 23:14:52,126--test_withdraw.py-96---INFO:用例------【提现成功-小数】------执行成功
+2021-11-01 23:14:52,329--test_withdraw.py-96---INFO:用例------【提现成功-两位小数】------执行成功
+2021-11-01 23:14:52,560--test_withdraw.py-96---INFO:用例------【提现成功-50w】------执行成功
+2021-11-01 23:14:52,783--test_withdraw.py-96---INFO:用例------【提现ID为空】------执行成功
+2021-11-01 23:14:52,976--test_withdraw.py-96---INFO:用例------【会员ID为小数】------执行成功
+2021-11-01 23:14:53,184--test_withdraw.py-91---ERROR:用例------【提现金额为0】------执行失败
+2021-11-01 23:14:53,184--test_withdraw.py-92---ERROR:{'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 303, 'leave_amount': 498399.58, 'mobile_phone': '13499009876', 'reg_name': 'a', 'reg_time': '2021-11-01 23:13:09.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_withdraw.py", line 83, in test_withdraw
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 2, 'msg': '余额必须大于0并且小于或者等于5000000'} not in {'code': 0, 'msg': 'OK', 'data': {'id': 303, 'leave_amount': 498399.58, 'mobile_phone': '13499009876', 'reg_name': 'a', 'reg_time': '2021-11-01 23:13:09.0', 'type': 1}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:53,510--test_withdraw.py-96---INFO:用例------【提现金额为负数】------执行成功
+2021-11-01 23:14:53,702--test_withdraw.py-91---ERROR:用例------【提现金额为空】------执行失败
+2021-11-01 23:14:53,702--test_withdraw.py-92---ERROR:{'code': 1, 'msg': '提现金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/testcase/test_withdraw.py", line 83, in test_withdraw
+    self.assertD.assertDictIn(expected, res)
+  File "/Users/scan/Desktop/柠檬班/api_Demo03/common/handle_assert.py", line 8, in assertDictIn
+    raise AssertionError("{} not in {}".format(expected, res))
+AssertionError: {'code': 1, 'msg': '提现金额为空'} not in {'code': 1, 'msg': '余额为空', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2021-11-01 23:14:53,906--test_withdraw.py-96---INFO:用例------【提现金额为-3位小数】------执行成功
+2021-11-01 23:14:54,117--test_withdraw.py-96---INFO:用例------【提现金额为-大于50W】------执行成功
+2021-11-01 23:14:54,322--test_withdraw.py-96---INFO:用例------【提现金额为非数字】------执行成功
