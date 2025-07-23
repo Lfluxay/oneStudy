@@ -1,0 +1,30 @@
+2021-10-12 22:32:36,042--test_login.py-38---INFO:用例---【登录成功】---执行成功
+2021-10-12 22:32:36,074--test_login.py-38---INFO:用例---【密码错误】---执行成功
+2021-10-12 22:32:36,105--test_login.py-38---INFO:用例---【账号错误】---执行成功
+2021-10-12 22:32:36,138--test_register.py-37---INFO:用例---【注册成功】---执行成功
+2021-10-12 22:32:36,181--test_register.py-37---INFO:用例---【账号已被注册】---执行成功
+2021-10-12 22:32:36,212--test_register.py-37---INFO:用例---【两次密码长度不一致】---执行成功
+2021-10-12 22:32:36,242--test_register.py-37---INFO:用例---【密码长度少于6位】---执行成功
+2021-10-12 22:32:36,275--test_register.py-28---ERROR:用例---【账号长度少于6位】---执行失败
+2021-10-12 22:32:36,275--test_register.py-32---ERROR:{'code': 0, 'msg': '账号密码长度应在1111-18位之间'} != {'code': 0, 'msg': '账号密码长度应在6-18位之间'}
+- {'code': 0, 'msg': '账号密码长度应在1111-18位之间'}
+?                             ^^^^
+
++ {'code': 0, 'msg': '账号密码长度应在6-18位之间'}
+?                             ^
+Traceback (most recent call last):
+  File "/Users/scan/Desktop/柠檬班/13/project/testcase/test_register.py", line 23, in test_register
+    self.assertEqual(expected, res)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 831, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 1130, in assertDictEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/unittest/case.py", line 670, in fail
+    raise self.failureException(msg)
+AssertionError: {'code': 0, 'msg': '账号密码长度应在1111-18位之间'} != {'code': 0, 'msg': '账号密码长度应在6-18位之间'}
+- {'code': 0, 'msg': '账号密码长度应在1111-18位之间'}
+?                             ^^^^
+
++ {'code': 0, 'msg': '账号密码长度应在6-18位之间'}
+?                             ^
+

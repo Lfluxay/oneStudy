@@ -1,0 +1,14 @@
+# 列表
+#- 11
+#- 22
+#- 33
+#- 44
+# 字典
+#- name: admin
+#  age: 16
+#  gender: man
+  data: {'user':'admin', 'pwd':'123456'}
+  expected: {"code":0,'msg':"测试通过"}
+  title: 成功
+  case_id: 1
+  mysql: {'host':'127.0.0.1','port':'3306'}
